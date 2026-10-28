@@ -22,7 +22,7 @@ int main() {
     for (int i = 1; i < n; i++) {
         char key = data[i]; 
         int j = i - 1;
-        cout << "\n[Putaran ke- " << i << "] Cek karakter '" << key << "':\n";
+        cout << "\n[Langkah ke- " << i << "] Cek karakter '" << key << "':\n";
 
         // Geser elemen ke kanan
         while (j >= 0 && data[j] > key) {
