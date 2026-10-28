@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
@@ -8,8 +9,11 @@ int main() {
 
     cout << "Masukkan kata : ";
     getline(cin, data);
-    int n = data.size();
 
+    // Menghilangkan semua spasi dan menyesuaikan ukuran teks dari string data
+    data.erase(remove(data.begin(), data.end(), ' '), data.end());
+    
+    int n = data.size();
 
     cout << "\n=========================================";
     cout << "\nPROSES SORTING PER KARAKTER :";
