@@ -28,7 +28,7 @@ int main() {
         }
         data[j + 1] = key; 
 
-        // Cetak hasil langkah ini
+        // Cetak hasil langkah 
         cout << " Hasil: ";
         for (int k = 0; k < n; k++) cout << data[k] << " ";
         cout << "\n";
