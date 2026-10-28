@@ -10,7 +10,7 @@ int main() {
     cout << "Masukkan kata : ";
     getline(cin, data);
 
-    // Menghilangkan semua spasi dan menyesuaikan ukuran teks dari string data
+    // Untuk menghilangkan semua spasi dan menyesuaikan ukuran teks dari string data
     data.erase(remove(data.begin(), data.end(), ' '), data.end());
     
     int n = data.size();
